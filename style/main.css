@@ -397,7 +397,6 @@ nav{
   -moz-transition: .5s;
   -ms-transition: .5s;
   -o-transition: .5s;
-  height: 100vh;
 }
 .anc_slider:hover{
   color: rgb(204, 146, 58);
@@ -408,7 +407,7 @@ nav{
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100;
   object-fit: cover;
 }
 .anc_slider::before{
@@ -491,6 +490,7 @@ html[dir="ltr"] .slider .owl-next {
   }
   .text_slider p{
     font-size: 17px;
+    display: none;
   }
   .slider .owl-dots{
     display: block;
